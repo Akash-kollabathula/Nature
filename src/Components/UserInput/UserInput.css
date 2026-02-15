@@ -1,0 +1,140 @@
+.input__form{
+      display: flex;
+  flex-direction: column;
+background-color: maroon;
+width: 800px;
+height: 350px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+border-radius: 20px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form{
+    margin-top: 55px;
+    margin-left: 40px;
+}
+
+.form__label{
+margin-top: 5px;
+margin-bottom: 5px;
+font-weight: bold;
+font-size: x-large;
+font-family: sans-serif;
+display: block;
+margin-left: 20px;
+}
+
+.form__input{
+   width: 80%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   outline: none;
+   margin-left: 20px;
+}
+.input__image{
+    position: absolute;
+  margin-left: 20px;
+    cursor: pointer;
+
+}
+
+.file-upload-button{
+    border: 1px solid #ccc;
+    color: #333;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    border-radius: 4px;
+    padding: 0 16px;
+    height: 40px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+    margin-right: 16px;
+    transition: background-color 200ms;
+    font-weight: bold;
+  }
+  
+  /* file upload button hover state */
+  input[type="file"]::file-selector-button:hover {
+    background-color: #f3f4f6;
+  }
+  
+  /* file upload button active state */
+  input[type="file"]::file-selector-button:active {
+    background-color: #e5e7eb;
+  }
+
+  .submit__button{
+    height: 20px;
+    width: 100px;
+  }
+
+  .input__h1{
+/* 
+    margin-top: -100px; */
+    text-align: center;
+
+  }
+
+  .submit__button{
+
+   font-family: sans-serif , Monospace;
+   font-weight: bold;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid white;
+    cursor: pointer;
+  }
+
+  .div__button{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+  }
+
+  @media (max-width:900px) {
+
+    
+.input__form{
+/* display: flex;
+flex-direction: column;
+background-color: maroon; */
+width: 300px;
+height: 350px;
+/* margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+border-radius: 20px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.submit__button{
+
+  height: 40px;
+  width: 110px;
+
+}
+
+.div__button{
+  display: flex;
+  justify-content: left;
+  margin-top: 55px;
+  margin-left: 20px;
+}
+.form{
+  margin-top: 55px;
+  margin-left: 10px;
+}
+
+    
+  }

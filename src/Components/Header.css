@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 800px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto ;
+    margin-top: 5px  ;  
+    border-radius:10px;
+    box-shadow: 5px 5px 3px 3px black;/***** Section *****/  /***** End Section *****/
+    
+
+}
+
+.headerh1{
+    color: white;
+    padding :10px;
+    font-size: xx-large; 
+    font-weight: 800 ;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+@media(max-width: 900px){
+    .header{
+      display: flex;
+    background-color: black;
+    justify-content: center;
+    width: 310px;
+    position:relative;
+    margin-left:auto;
+    margin-right:auto ;
+    margin-top: 5px  ;  
+    border-radius:10px;
+    box-shadow: 5px 5px 3px 3px black;/***** Section *****/  /***** End Section *****/
+    
+    }
+    .headerh1{
+    color: white;
+    padding :10px;
+    font-size: large; 
+    font-weight: 800 ;
+    font-family: sans-serif,Georgia, 'Times New Roman', Times, serif;
+
+    }
+}
